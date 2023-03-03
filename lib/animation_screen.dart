@@ -81,7 +81,7 @@ class _AnimationScreenState extends State<AnimationScreen> {
         ),
       );
     },
-    duration: Duration(milliseconds: 1000),
+    duration: Duration(milliseconds: 900),
     );
     items.removeAt(index);
     print(index);
@@ -91,7 +91,7 @@ class _AnimationScreenState extends State<AnimationScreen> {
     // int i =items.length>0?items.length:0;
     String x = "Item ${items.length + 1}";
     items.insert(0, x);
-    animatedKey.currentState!.insertItem(0);
+    animatedKey.currentState!.insertItem(0, duration: Duration(milliseconds: 800),);
     print(items.length);
   }
 }
