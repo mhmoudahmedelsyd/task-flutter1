@@ -1,6 +1,6 @@
-import 'package:courestest/animation_screen.dart';
-import 'package:courestest/components.dart';
-import 'package:courestest/register_screen.dart';
+import 'package:courestest/animatedlist_task/animation_screen.dart';
+import 'package:courestest/register_task/register_screen.dart';
+import 'package:courestest/shared/components/components.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatefulWidget {

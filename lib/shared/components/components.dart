@@ -1,5 +1,4 @@
-import 'package:courestest/customClipperClass.dart';
-import 'package:courestest/login_screen.dart';
+import 'package:courestest/login_task/customClipperClass.dart';
 import 'package:flutter/material.dart';
 
 defaultTextForm({

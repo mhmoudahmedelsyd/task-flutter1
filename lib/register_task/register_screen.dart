@@ -1,5 +1,6 @@
-import 'package:courestest/components.dart';
-import 'package:courestest/login_screen.dart';
+
+import 'package:courestest/login_task/login_screen.dart';
+import 'package:courestest/shared/components/components.dart';
 import 'package:flutter/material.dart';
 
 class RegisterScreen extends StatefulWidget {
